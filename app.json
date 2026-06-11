@@ -8,7 +8,11 @@
     "scheme": "timezly",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joy456.timezly",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +23,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "permissions": [
-        "INTERNET"
+        "android.permission.INTERNET"
       ],
       "package": "com.joy456.timezly"
     },
@@ -61,7 +65,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "ae871629-cc85-4203-b020-d9f18f5507a1"
+        "projectId": "6a3e9119-e970-43fa-aab8-d185ec882751"
       }
     }
   }
